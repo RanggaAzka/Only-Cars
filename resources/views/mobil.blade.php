@@ -29,7 +29,6 @@
                 <h2 class="text-xl font-semibold text-gray-800 mb-2">{{ $m['nama_mobil'] }}</h2>
                 <p class="text-gray-600"><span class="font-medium">Harga:</span> Rp {{ number_format($m['harga_mobil'], 0, ',', '.') }}</p>
                 <p class="text-gray-600"><span class="font-medium">Tahun:</span> {{ $m['tahun_mobil'] }}</p>
-                <p class="text-gray-600"><span class="font-medium">Kilometer:</span> {{ number_format($m['km_mobil'], 0, ',', '.')  }} km</p>
                 </a>
             </div>  
         @endforeach
